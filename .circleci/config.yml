@@ -92,7 +92,7 @@ smoke_test_common: &smoke_test_common
   <<: *binary_common
   docker:
     - image: pytorch/torchaudio_unittest_base:smoke_test-20220425
-  resource_class: large
+  resource_class: 2xlarge
 
 jobs:
   circleci_consistency:
