@@ -6,3 +6,4 @@ sphinxcontrib.bibtex
 matplotlib
 pyparsing<3,>=2.0.2
 sphinx_gallery
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
